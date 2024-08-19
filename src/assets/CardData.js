@@ -1,16 +1,5 @@
-import nutrition from "../assets/cardimages/Rectangle 152.png";
-import physical_activity from "../assets/cardimages/Rectangle 154.png";
-import restorative_sleep from "../assets/cardimages/Rectangle 156.png";
-import stress_management from "../assets/cardimages/Rectangle 158.png";
-import social_connection from "../assets/cardimages/Rectangle 160.png";
-import substance_abuse from "../assets/cardimages/Rectangle 144.png";
-import nutritionmetricicon from "../assets/metricIcons/Vector.png";
-import physical_activitymetricicon from "../assets/metricIcons/Vector (1).png";
-import restorative_sleepmetricicon from "../assets/metricIcons/Mask group.png";
-import stress_managementmetricicon from "../assets/metricIcons/Vector (3).png";
-import substance_abusemetricicon from "../assets/metricIcons/Vector (4).png";
-
-
+import { nutrition, physical_activity, restorative_sleep, stress_management, social_connection, substance_abuse } from "./imports";
+import { nutritionmetricicon, physical_activitymetricicon, restorative_sleepmetricicon, stress_managementmetricicon, substance_abusemetricicon } from "./imports";
 
 
 const cardData = [

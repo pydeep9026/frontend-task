@@ -1,6 +1,6 @@
 import React from "react";
 import './SearchForm.css';
-import buttonlogo from '../assets/inputicons/Vector (5).png';  
+import { buttonlogo } from "../assets/imports";
 
 function SearchForm() {
   return (

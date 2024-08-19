@@ -247,8 +247,8 @@
 @media (max-width: 768px) {
   .searchPage {
     flex-direction: column;
-    margin-top: 40px;
     background-color: #ffffffee;
+    margin-bottom: 70px;
   }
 
   .searchForm{

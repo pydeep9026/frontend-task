@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import './Header.css';
-import logo from '../assets/logo.png';
+import { logo } from "../assets/imports";
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -53,7 +53,6 @@ function Header() {
         <a href="#">Speakers <span className="arrow">&#8594;</span></a>
       </nav>
 
-      {/* Overlay */}
       <div className={`overlay ${isMenuOpen ? "show" : ""}`} onClick={toggleMenu}></div>
     </header>
   );

@@ -1,8 +1,7 @@
 import React, { useRef, useState } from 'react';
-import cardData from './CardData';
+import cardData from '../assets/CardData';
 import './HealthCards.css';
-import  leftarrowicon from '../assets/arrowicons/Group 1010106018.png';
-import  rightarrowicon from '../assets/arrowicons/Group 1010106019.png';
+import { leftarrowicon, rightarrowicon } from '../assets/imports';
 
 const HealthCard = () => {
     const scrollRef = useRef(null);
